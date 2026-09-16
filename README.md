@@ -1,20 +1,15 @@
 # Oficina Dos Guri — Landing Page
 
 Landing page de página única, estática, sem build e sem dependências.
-
-**No ar:** https://bryanrory.github.io/oficina_dos_guri/
+Basta abrir o `index.html` ou subir os três arquivos em qualquer hospedagem
+(GitHub Pages, Netlify, Vercel, Hostinger, etc.).
 
 ```
-.
+oficina-dos-guri/
 ├── index.html   estrutura e conteúdo
 ├── style.css    tema "Industrial Garage Dark Mode" (CSS Variables, mobile first)
-├── script.js    menu mobile, FAQ, filtro da galeria e scroll reveal
-└── fotos/       as doze fotos da galeria antes e depois
+└── script.js    menu mobile, FAQ, filtro da galeria e scroll reveal
 ```
-
-Cada push na branch `main` republica o site sozinho, pelo workflow em
-`.github/workflows/pages.yml`. Para editar sem clonar nada, dá para mexer
-direto pelo GitHub e o site sai atualizado em um ou dois minutos.
 
 ## O que editar antes de publicar
 
